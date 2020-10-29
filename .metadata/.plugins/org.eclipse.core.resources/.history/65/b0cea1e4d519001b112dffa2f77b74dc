@@ -1,0 +1,15 @@
+package com.luv2code.springdemo;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("jeljd");
+	}
+	
+	public static void swap(int a, int b) {
+		int temp = a;
+		a = b;
+		b = temp;
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.springpractice.demo;
+
+public class BaseballCoach implements Coach {
+	@Override
+	public String tips() {
+		return "baseball tips";
+	}
+}
