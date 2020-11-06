@@ -3,4 +3,6 @@
   <module moduleId="org.eclipse.jst.jee.server:spring-mvc-dem" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:spring-mvc-demo-2" serverId="Tomcat v9.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:spring-mvc-demo1" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:web-customer-tracker" serverId="Tomcat v9.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:webapp" serverId="Tomcat v9.0 Server at localhost"/>
 </modules>

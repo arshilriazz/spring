@@ -8,6 +8,8 @@ public class AnnotationsTest {
 		ClassPathXmlApplicationContext context = 
 				new ClassPathXmlApplicationContext("applicationContext.xml");
 		Coach coach = context.getBean("cricketCoach", Coach.class);
+		Coach track = context.getBean("asdf",TrackCoach.class);
+		System.out.println(track.tips());
 		System.out.println(coach.tips());
 		System.out.println(coach.getDailyFortune());
 		context.close();

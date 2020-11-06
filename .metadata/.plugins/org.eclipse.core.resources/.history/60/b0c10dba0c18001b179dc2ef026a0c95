@@ -1,7 +1,0 @@
-package com.springpractice.demo;
-
-public class BaseballCoach {
-	public String tips() {
-		return "baseball tips";
-	}
-}

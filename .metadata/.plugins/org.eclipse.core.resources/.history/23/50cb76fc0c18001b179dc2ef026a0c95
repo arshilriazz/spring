@@ -1,8 +1,0 @@
-package com.springpractice.demo;
-
-public class Main {
-	public static void main(String[] args) {
-		Coach coach = new BaseballCoach();
-		System.out.println(coach.tips());
-	}
-}
