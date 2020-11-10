@@ -5811,3 +5811,1119 @@ org.eclipse.core.runtime.CoreException: Launch configuration TestPerson referenc
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 2020-11-09 11:58:36,146 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-11-09 12:01:04,862 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-11-09 21:56:59,862 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///home/arshil/.m2/repository/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.jar
+2020-11-09 21:56:59,871 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded file:///home/arshil/.m2/repository/org/apache/maven/archetypes/maven-archetype-webapp/1.0/maven-archetype-webapp-1.0.pom
+2020-11-09 21:56:59,945 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml
+2020-11-09 21:57:01,348 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 21:57:02,827 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/main/java
+2020-11-09 21:57:02,828 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mycoolwebapp/src/main/resources
+2020-11-09 21:57:02,828 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/test/java
+2020-11-09 21:57:05,143 [Worker-227: Creating maven-archetype-webapp] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 5 sec
+2020-11-09 21:57:05,486 [Worker-232: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 21:57:05,492 [Worker-232: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:57:05,495 [Worker-232: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 21:57:05,512 [Worker-232: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 21:57:36,580 [Worker-224: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 21:57:37,715 [Worker-230: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 21:57:37,716 [Worker-230: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:57:37,719 [Worker-230: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 21:57:37,720 [Worker-230: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:00:53,570 [Worker-232: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 22:00:54,255 [Worker-232: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:00:54,265 [Worker-232: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:00:54,270 [Worker-232: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:00:54,275 [Worker-232: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:00:54,275 [Worker-232: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 22:00:54,278 [Worker-232: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 22:00:54,300 [Worker-232: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:00:55,053 [Worker-235: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:00:55,059 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:00:55,062 [Worker-235: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:00:55,063 [Worker-235: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:06:42,741 [Worker-243: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 22:06:43,379 [Worker-243: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:06:43,384 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:06:43,387 [Worker-243: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:06:43,387 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:06:43,388 [Worker-243: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 22:06:43,388 [Worker-243: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 22:06:43,439 [Worker-243: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:06:48,685 [Worker-236: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 22:06:49,341 [Worker-236: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:06:49,344 [Worker-236: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:06:49,346 [Worker-236: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:06:49,347 [Worker-236: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:06:49,347 [Worker-236: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 22:06:49,347 [Worker-236: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 22:06:49,352 [Worker-236: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:07:27,926 [Worker-244: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-09 22:07:28,170 [Worker-244: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 22:07:28,509 [Worker-244: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/main/java
+2020-11-09 22:07:28,509 [Worker-244: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mycoolwebapp/src/main/resources
+2020-11-09 22:07:28,509 [Worker-244: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/test/java
+2020-11-09 22:07:30,191 [Worker-244: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for mycoolwebapp
+2020-11-09 22:07:30,199 [Worker-244: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-11-09 22:07:30,240 [Worker-229: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:07:30,241 [Worker-229: Building Project mycoolwebapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:07:30,243 [Worker-229: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:07:30,243 [Worker-229: Building Project mycoolwebapp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:07:30,244 [Worker-229: Building Project mycoolwebapp] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 22:07:30,244 [Worker-229: Building Project mycoolwebapp] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 22:07:30,247 [Worker-229: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:07:31,183 [Worker-243: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:07:31,190 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:07:31,191 [Worker-243: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:07:31,192 [Worker-243: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:12:40,489 [Worker-245: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.telusko:DemoHib:0.0.1-SNAPSHOT @ /home/arshil/eclipse-workspace/DemoHib2/pom.xml.
+2020-11-09 22:12:41,040 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:12:41,040 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/DemoHib2/src/main/resources
+2020-11-09 22:12:41,044 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:12:41,044 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/DemoHib2/src/test/resources
+2020-11-09 22:12:54,969 [Worker-229: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration TestPerson references closed project DemoHib2
+org.eclipse.core.runtime.CoreException: Launch configuration TestPerson references closed project DemoHib2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 22:12:54,971 [Worker-229: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration TestPerson references closed project DemoHib2
+org.eclipse.core.runtime.CoreException: Launch configuration TestPerson references closed project DemoHib2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:521)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:409)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 22:12:54,974 [Worker-229: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration TestPerson references closed project DemoHib2
+org.eclipse.core.runtime.CoreException: Launch configuration TestPerson references closed project DemoHib2
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1843)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1715)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:55)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:40)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:224)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:208)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2130)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:374)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:257)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:227)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:185)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:72)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:149)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:84)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 22:13:41,943 [Worker-247: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 22:13:43,655 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.pom
+2020-11-09 22:13:44,269 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.pom
+2020-11-09 22:13:44,577 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.pom
+2020-11-09 22:13:44,785 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.pom
+2020-11-09 22:13:45,095 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.2/byte-buddy-parent-1.10.2.pom
+2020-11-09 22:13:45,704 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy-parent/1.10.2/byte-buddy-parent-1.10.2.pom
+2020-11-09 22:13:46,010 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.pom
+2020-11-09 22:13:46,318 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.pom
+2020-11-09 22:13:46,625 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.pom
+2020-11-09 22:13:46,935 [Worker-247: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.pom
+2020-11-09 22:13:47,240 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar
+2020-11-09 22:13:47,447 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.jar
+2020-11-09 22:13:47,448 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar
+2020-11-09 22:13:47,449 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+2020-11-09 22:13:49,790 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final.jar
+2020-11-09 22:13:50,832 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar
+2020-11-09 22:13:56,354 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2.jar
+2020-11-09 22:13:58,899 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final.jar
+2020-11-09 22:13:59,748 [Worker-247: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:13:59,755 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:13:59,757 [Worker-247: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:13:59,758 [Worker-247: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:13:59,759 [Worker-247: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 22:13:59,761 [Worker-247: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 22:13:59,777 [Worker-247: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:14:01,889 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:14:01,890 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:14:01,892 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:14:01,893 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 22:14:02,167 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final-sources.jar
+2020-11-09 22:14:17,807 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-core/5.4.10.Final/hibernate-core-5.4.10.Final-sources.jar
+2020-11-09 22:14:17,841 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate:hibernate-core:5.4.10.Final
+2020-11-09 22:14:19,103 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar
+2020-11-09 22:14:20,006 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar
+2020-11-09 22:14:20,024 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.logging:jboss-logging:3.3.2.Final
+2020-11-09 22:14:21,236 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2020-11-09 22:14:23,082 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar
+2020-11-09 22:14:23,125 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.persistence:javax.persistence-api:2.2
+2020-11-09 22:14:24,325 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar
+2020-11-09 22:14:26,460 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA-sources.jar
+2020-11-09 22:14:26,517 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.javassist:javassist:3.24.0-GA
+2020-11-09 22:14:27,693 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2-sources.jar
+2020-11-09 22:14:32,113 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/bytebuddy/byte-buddy/1.10.2/byte-buddy-1.10.2-sources.jar
+2020-11-09 22:14:32,147 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for net.bytebuddy:byte-buddy:1.10.2
+2020-11-09 22:14:33,232 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2020-11-09 22:14:33,836 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final-sources.jar
+2020-11-09 22:14:33,869 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.1.1.Final
+2020-11-09 22:14:35,065 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final-sources.jar
+2020-11-09 22:14:36,297 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jandex/2.1.1.Final/jandex-2.1.1.Final-sources.jar
+2020-11-09 22:14:36,343 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jboss:jandex:2.1.1.Final
+2020-11-09 22:14:37,521 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2020-11-09 22:14:38,446 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/classmate/1.5.1/classmate-1.5.1-sources.jar
+2020-11-09 22:14:38,469 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml:classmate:1.5.1
+2020-11-09 22:14:39,569 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2020-11-09 22:14:40,693 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0-sources.jar
+2020-11-09 22:14:40,734 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:javax.activation-api:1.2.0
+2020-11-09 22:14:41,949 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar
+2020-11-09 22:14:43,252 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/dom4j/dom4j/2.1.1/dom4j-2.1.1-sources.jar
+2020-11-09 22:14:43,269 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.dom4j:dom4j:2.1.1
+2020-11-09 22:14:44,390 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar
+2020-11-09 22:14:45,306 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final-sources.jar
+2020-11-09 22:14:45,353 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.hibernate.common:hibernate-commons-annotations:5.1.0.Final
+2020-11-09 22:14:46,435 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2020-11-09 22:14:48,477 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1-sources.jar
+2020-11-09 22:14:48,553 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.xml.bind:jaxb-api:2.3.1
+2020-11-09 22:14:49,817 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2020-11-09 22:14:58,078 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1-sources.jar
+2020-11-09 22:14:58,171 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:jaxb-runtime:2.3.1
+2020-11-09 22:14:59,130 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2020-11-09 22:15:00,456 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1-sources.jar
+2020-11-09 22:15:00,490 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.glassfish.jaxb:txw2:2.3.1
+2020-11-09 22:15:01,688 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2020-11-09 22:15:02,303 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7-sources.jar
+2020-11-09 22:15:02,346 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.istack:istack-commons-runtime:3.0.7
+2020-11-09 22:15:03,531 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2020-11-09 22:15:04,354 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8-sources.jar
+2020-11-09 22:15:04,393 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jvnet.staxex:stax-ex:1.8
+2020-11-09 22:15:05,487 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2020-11-09 22:15:07,316 [Worker-229: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15-sources.jar
+2020-11-09 22:15:07,334 [Worker-229: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.xml.fastinfoset:FastInfoset:1.2.15
+2020-11-09 22:15:07,578 [Worker-248: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:15:07,587 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:15:07,589 [Worker-248: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 22:15:07,590 [Worker-248: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:19:34,910 [Worker-246: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:19:36,757 [Worker-246: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4.pom
+2020-11-09 23:19:36,759 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:19:37,269 [Worker-246: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4.jar
+2020-11-09 23:19:37,282 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:19:38,124 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:19:38,131 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:19:38,136 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:19:38,137 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:19:38,137 [Worker-246: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:19:38,137 [Worker-246: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:19:38,143 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:19:38,950 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:19:39,537 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:19:39,550 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:19:39,578 [Worker-246: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:19:39,582 [Worker-246: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:19:40,454 [Worker-253: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4-sources.jar
+2020-11-09 23:19:40,464 [Worker-253: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.atlassian.mail:atlassian-mail:4.0.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian.mail:atlassian-mail:jar:sources:4.0.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:21:54,972 [Worker-257: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:21:59,835 [Worker-257: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4.pom
+2020-11-09 23:21:59,837 [Worker-257: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:00,563 [Worker-257: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4.jar
+2020-11-09 23:22:00,571 [Worker-257: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:01,497 [Worker-257: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:01,510 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:22:01,512 [Worker-257: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:01,525 [Worker-257: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:22:01,525 [Worker-257: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:22:01,525 [Worker-257: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:22:01,531 [Worker-257: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:02,397 [Worker-255: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:03,543 [Worker-255: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4-sources.jar
+2020-11-09 23:22:03,581 [Worker-255: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.atlassian.mail:atlassian-mail:4.0.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian.mail:atlassian-mail:jar:sources:4.0.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:22:04,525 [Worker-255: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/antlr/antlr/2.7.7/antlr-2.7.7-sources.jar
+2020-11-09 23:22:04,529 [Worker-255: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:sources:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:22:18,602 [Worker-253: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:22:18,604 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:19,081 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:19,082 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:22:19,084 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:19,085 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:22:19,085 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:22:19,085 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:22:19,090 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:20,021 [Worker-254: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:21,014 [Worker-254: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4-javadoc.jar
+2020-11-09 23:22:26,065 [Worker-254: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/mail/atlassian-mail/4.0.4/atlassian-mail-4.0.4-javadoc.jar
+2020-11-09 23:22:26,068 [Worker-254: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.atlassian.mail:atlassian-mail:4.0.4
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian.mail:atlassian-mail:jar:javadoc:4.0.4
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:22:27,064 [Worker-254: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/antlr/antlr/2.7.7/antlr-2.7.7-javadoc.jar
+2020-11-09 23:22:27,065 [Worker-254: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for antlr:antlr:2.7.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:jar:javadoc:2.7.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:22:30,937 [Worker-257: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-09 23:22:31,101 [Worker-257: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:22:31,102 [Worker-257: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:31,530 [Worker-257: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/main/java
+2020-11-09 23:22:31,530 [Worker-257: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mycoolwebapp/src/main/resources
+2020-11-09 23:22:31,531 [Worker-257: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/test/java
+2020-11-09 23:22:37,104 [Worker-257: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for mycoolwebapp
+2020-11-09 23:22:37,109 [Worker-257: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2020-11-09 23:22:37,330 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:22:37,497 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:37,500 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:22:37,503 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:37,504 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:22:37,504 [Worker-255: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:22:37,504 [Worker-255: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:22:37,508 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:22:59,800 [Worker-229: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:23:00,402 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:00,404 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:23:00,408 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:00,411 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:23:00,412 [Worker-229: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:23:00,412 [Worker-229: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:23:00,416 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:01,006 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:01,008 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:23:01,010 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:01,011 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:23:04,187 [Worker-254: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:23:04,189 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:23:04,639 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:04,642 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:23:04,644 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:04,644 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:23:04,645 [Worker-254: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:23:04,645 [Worker-254: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:23:04,648 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:05,224 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:23:05,578 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:05,582 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:23:05,598 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:05,599 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:23:30,942 [Worker-255: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:23:30,944 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:23:31,533 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:31,535 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:23:31,537 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:23:31,537 [Worker-255: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:23:31,537 [Worker-255: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:23:31,537 [Worker-255: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:23:31,541 [Worker-255: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:24:20,046 [Worker-261: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:24:20,366 [Worker-229: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:24:20,445 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:24:21,002 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:24:21,012 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:24:21,014 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:24:21,015 [Worker-229: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:24:21,015 [Worker-229: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:24:21,015 [Worker-229: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:24:21,035 [Worker-229: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:24:21,645 [Worker-261: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:24:21,735 [Worker-261: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:24:21,737 [Worker-261: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:24:21,739 [Worker-261: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:24:21,739 [Worker-261: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:25:33,426 [Worker-253: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:25:33,899 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:25:33,901 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:25:33,903 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:25:33,903 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:25:33,903 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:25:33,903 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:25:33,909 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:25:34,641 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:25:34,655 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:25:34,668 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:25:34,672 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:26:05,853 [Worker-264: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:26:07,014 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.pom
+2020-11-09 23:26:07,832 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.pom
+2020-11-09 23:26:08,650 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.29/public-pom-5.0.29.pom
+2020-11-09 23:26:09,470 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.29/public-pom-5.0.29.pom
+2020-11-09 23:26:10,186 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:26:11,889 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:26:12,439 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:26:13,258 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform/5.0.0/platform-5.0.0.pom
+2020-11-09 23:26:14,181 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform/5.0.0/platform-5.0.0.pom
+2020-11-09 23:26:14,936 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform-poms/5.0.0/platform-poms-5.0.0.pom
+2020-11-09 23:26:15,614 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform-poms/5.0.0/platform-poms-5.0.0.pom
+2020-11-09 23:26:16,432 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.21/public-pom-5.0.21.pom
+2020-11-09 23:26:17,252 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.21/public-pom-5.0.21.pom
+2020-11-09 23:26:18,073 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:26:18,380 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:26:18,587 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:26:19,217 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/third-party/5.0.0/third-party-5.0.0.pom
+2020-11-09 23:26:20,017 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/third-party/5.0.0/third-party-5.0.0.pom
+2020-11-09 23:26:20,732 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.pom
+2020-11-09 23:26:21,303 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.pom
+2020-11-09 23:26:21,562 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.pom
+2020-11-09 23:26:22,372 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.pom
+2020-11-09 23:26:22,679 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.pom
+2020-11-09 23:26:22,983 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.pom
+2020-11-09 23:26:23,705 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom
+2020-11-09 23:26:24,010 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom
+2020-11-09 23:26:24,216 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/xml-apis/xml-apis/2.0.2/xml-apis-2.0.2.pom
+2020-11-09 23:26:25,035 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.pom
+2020-11-09 23:26:25,341 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.pom
+2020-11-09 23:26:25,650 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.pom
+2020-11-09 23:26:26,468 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/sun/mail/all/1.5.6/all-1.5.6.pom
+2020-11-09 23:26:26,776 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/all/1.5.6/all-1.5.6.pom
+2020-11-09 23:26:27,097 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/all/1.5.6/all-1.5.6.pom
+2020-11-09 23:26:27,901 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.pom
+2020-11-09 23:26:28,099 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.pom
+2020-11-09 23:26:28,299 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.pom
+2020-11-09 23:26:29,029 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/log4j/log4j/1.2.7/log4j-1.2.7.pom
+2020-11-09 23:26:29,336 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.7/log4j-1.2.7.pom
+2020-11-09 23:26:29,644 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.7/log4j-1.2.7.pom
+2020-11-09 23:26:30,366 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom
+2020-11-09 23:26:30,569 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom
+2020-11-09 23:26:30,870 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.pom
+2020-11-09 23:26:31,587 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.pom
+2020-11-09 23:26:31,787 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.pom
+2020-11-09 23:26:31,787 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:26:32,682 [AetherRepositoryConnector-maven.atlassian.com-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.jar
+2020-11-09 23:26:32,682 [AetherRepositoryConnector-maven.atlassian.com-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+2020-11-09 23:26:32,812 [AetherRepositoryConnector-maven.atlassian.com-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+2020-11-09 23:26:32,934 [AetherRepositoryConnector-maven.atlassian.com-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.jar
+2020-11-09 23:26:33,102 [AetherRepositoryConnector-maven.atlassian.com-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.jar
+2020-11-09 23:26:33,419 [AetherRepositoryConnector-maven.atlassian.com-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar
+2020-11-09 23:26:33,651 [AetherRepositoryConnector-maven.atlassian.com-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar
+2020-11-09 23:26:33,711 [AetherRepositoryConnector-maven.atlassian.com-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar
+2020-11-09 23:26:33,711 [AetherRepositoryConnector-maven.atlassian.com-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/log4j/log4j/1.2.7/log4j-1.2.7.jar
+2020-11-09 23:26:33,970 [AetherRepositoryConnector-maven.atlassian.com-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.jar
+2020-11-09 23:26:34,193 [AetherRepositoryConnector-maven.atlassian.com-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.jar
+2020-11-09 23:26:34,559 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.jar
+2020-11-09 23:26:34,872 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+2020-11-09 23:26:34,958 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar
+2020-11-09 23:26:35,101 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.jar
+2020-11-09 23:26:35,101 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+2020-11-09 23:26:35,300 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1.jar
+2020-11-09 23:26:35,626 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar
+2020-11-09 23:26:35,704 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar
+2020-11-09 23:26:36,089 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/log4j/log4j/1.2.7/log4j-1.2.7.jar
+2020-11-09 23:26:36,248 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6.jar
+2020-11-09 23:26:36,362 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1.jar
+2020-11-09 23:26:36,650 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar
+2020-11-09 23:26:36,857 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.jar
+2020-11-09 23:26:37,854 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.7/log4j-1.2.7.jar
+2020-11-09 23:26:37,968 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1.jar
+2020-11-09 23:26:38,246 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6.jar
+2020-11-09 23:26:38,246 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar
+2020-11-09 23:26:38,541 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:26:38,942 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:38,946 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:26:38,947 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:38,948 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:26:38,949 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:26:38,949 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:26:38,952 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:40,106 [Worker-262: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:26:40,123 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:40,124 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:26:40,126 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:40,131 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:26:41,112 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0-sources.jar
+2020-11-09 23:26:42,340 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0-sources.jar
+2020-11-09 23:26:42,385 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.atlassian.mail:atlassian-mail:5.1.0
+2020-11-09 23:26:43,363 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1-sources.jar
+2020-11-09 23:26:43,625 [Worker-265: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:26:43,720 [Worker-265: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:26:44,491 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1-sources.jar
+2020-11-09 23:26:44,571 [Worker-265: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:44,573 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:26:44,574 [Worker-265: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:44,575 [Worker-265: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:26:44,575 [Worker-265: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:26:44,575 [Worker-265: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:26:44,580 [Worker-265: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:45,503 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:26:45,770 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:45,772 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:26:45,774 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:26:45,779 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:26:45,967 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-beanutils/commons-beanutils/1.6.1/commons-beanutils-1.6.1-sources.jar
+2020-11-09 23:26:45,988 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-beanutils:commons-beanutils:1.6.1
+2020-11-09 23:26:46,988 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar
+2020-11-09 23:26:48,079 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar
+2020-11-09 23:26:50,558 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.1/commons-collections-3.1-sources.jar
+2020-11-09 23:26:50,582 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-collections:commons-collections:3.1
+2020-11-09 23:26:51,454 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1-sources.jar
+2020-11-09 23:26:52,677 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1-sources.jar
+2020-11-09 23:26:54,117 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.4.1/commons-digester-1.4.1-sources.jar
+2020-11-09 23:26:54,134 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-digester:commons-digester:1.4.1
+2020-11-09 23:26:55,038 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar
+2020-11-09 23:26:56,166 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar
+2020-11-09 23:26:56,678 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar
+2020-11-09 23:26:56,700 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for commons-logging:commons-logging:1.0.4
+2020-11-09 23:26:57,598 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6-sources.jar
+2020-11-09 23:26:58,716 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6-sources.jar
+2020-11-09 23:26:59,852 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/mail/javax.mail-api/1.5.6/javax.mail-api-1.5.6-sources.jar
+2020-11-09 23:26:59,902 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.mail:javax.mail-api:1.5.6
+2020-11-09 23:27:00,869 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6-sources.jar
+2020-11-09 23:27:02,108 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6-sources.jar
+2020-11-09 23:27:03,784 [Worker-254: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:27:04,151 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/mail/javax.mail/1.5.6/javax.mail-1.5.6-sources.jar
+2020-11-09 23:27:04,167 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.sun.mail:javax.mail:1.5.6
+2020-11-09 23:27:04,269 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:04,272 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:27:04,274 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:04,275 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:27:04,275 [Worker-254: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:27:04,275 [Worker-254: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:27:04,318 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:04,355 [Worker-254: Building] WARN  Sisu - Error injecting: org.apache.maven.plugin.war.WarMojo
+com.google.inject.ProvisionException: Unable to provision, see the following errors:
+
+1) No implementation for org.codehaus.plexus.archiver.manager.ArchiverManager was bound.
+  while locating org.apache.maven.plugin.war.WarMojo
+
+1 error
+	at com.google.inject.internal.InternalProvisionException.toProvisionException(InternalProvisionException.java:226)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1053)
+	at com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1086)
+	at org.eclipse.sisu.space.AbstractDeferredClass.get(AbstractDeferredClass.java:48)
+	at com.google.inject.internal.ProviderInternalFactory.provision(ProviderInternalFactory.java:85)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.provision(InternalFactoryToInitializableAdapter.java:57)
+	at com.google.inject.internal.ProviderInternalFactory$1.call(ProviderInternalFactory.java:66)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:112)
+	at com.google.inject.internal.ProvisionListenerStackCallback$Provision.provision(ProvisionListenerStackCallback.java:127)
+	at com.google.inject.internal.ProvisionListenerStackCallback.provision(ProvisionListenerStackCallback.java:66)
+	at com.google.inject.internal.ProviderInternalFactory.circularGet(ProviderInternalFactory.java:61)
+	at com.google.inject.internal.InternalFactoryToInitializableAdapter.get(InternalFactoryToInitializableAdapter.java:47)
+	at com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1050)
+	at org.eclipse.sisu.inject.Guice4$1.get(Guice4.java:162)
+	at org.eclipse.sisu.inject.LazyBeanEntry.getValue(LazyBeanEntry.java:81)
+	at org.eclipse.sisu.plexus.LazyPlexusBean.getValue(LazyPlexusBean.java:51)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.apache.maven.plugin.internal.DefaultMavenPluginManager.getConfiguredMojo(DefaultMavenPluginManager.java:520)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getConfiguredMojo(MavenImpl.java:354)
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.reflectManifestGeneration(AbstractMavenArchiverConfigurator.java:469)
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.generateManifest(AbstractMavenArchiverConfigurator.java:422)
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator.mavenProjectChanged(AbstractMavenArchiverConfigurator.java:227)
+	at org.sonatype.m2e.mavenarchiver.internal.AbstractMavenArchiverConfigurator$1.build(AbstractMavenArchiverConfigurator.java:167)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilderImpl.build(MavenBuilderImpl.java:135)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:169)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$1.method(MavenBuilder.java:1)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$1(MavenBuilder.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:105)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:27:05,128 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:05,129 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:27:05,131 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:05,132 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:27:05,277 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/javax/activation/activation/1.1/activation-1.1-sources.jar
+2020-11-09 23:27:06,303 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2020-11-09 23:27:07,143 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/activation/activation/1.1/activation-1.1-sources.jar
+2020-11-09 23:27:07,161 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.activation:activation:1.1
+2020-11-09 23:27:08,145 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-11-09 23:27:09,379 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-11-09 23:27:10,502 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar
+2020-11-09 23:27:10,542 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.25
+2020-11-09 23:27:11,525 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/log4j/log4j/1.2.7/log4j-1.2.7-sources.jar
+2020-11-09 23:27:12,753 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.7/log4j-1.2.7-sources.jar
+2020-11-09 23:27:12,754 [Worker-262: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for log4j:log4j:1.2.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact log4j:log4j:jar:sources:1.2.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:27:13,674 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-sources.jar
+2020-11-09 23:27:13,878 [Worker-263: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:27:13,879 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:27:14,228 [Worker-263: Building] ERROR o.e.m.c.i.p.ProjectConfigurationManager - Could not read maven project
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:850)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$22(ProjectRegistryManager.java:1069)
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953)
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1068)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:243)
+	at org.eclipse.m2e.wtp.jaxrs.internal.configurators.JaxRsProjectConfigurator.mavenProjectChanged(JaxRsProjectConfigurator.java:175)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.mavenProjectChanged(ProjectConfigurationManager.java:1040)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:824)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:990)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:317)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:151)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:89)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:832)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:27:14,343 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:14,345 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:27:14,347 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:14,348 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:27:14,348 [Worker-263: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:27:14,348 [Worker-263: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:27:14,352 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:14,909 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-sources.jar
+2020-11-09 23:27:15,930 [Worker-262: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3-sources.jar
+2020-11-09 23:27:15,978 [Worker-262: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jsoup:jsoup:1.8.3
+2020-11-09 23:27:26,200 [Worker-253: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:27:26,560 [Worker-253: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:27:26,561 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian.mail:atlassian-mail:jar:4.0.4 is missing, no dependency information available
+2020-11-09 23:27:27,100 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:27,103 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:27:27,105 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:27:27,106 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:27:27,106 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:27:27,106 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:27:27,110 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:42,313 [Worker-263: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:28:42,638 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:42,640 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:28:42,642 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:42,642 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:28:42,643 [Worker-263: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:28:42,643 [Worker-263: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:28:42,646 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:43,888 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:43,892 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:28:43,894 [Worker-263: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:43,894 [Worker-263: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:28:57,240 [Worker-253: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:28:57,296 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:28:57,806 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:57,808 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:28:57,810 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:57,811 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:28:57,811 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:28:57,811 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:28:57,815 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:58,391 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:28:58,614 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:58,616 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:28:58,625 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:28:58,626 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:28:59,660 [Worker-259: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/log4j/log4j/1.2.7/log4j-1.2.7-javadoc.jar
+2020-11-09 23:29:00,787 [Worker-259: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.7/log4j-1.2.7-javadoc.jar
+2020-11-09 23:29:00,787 [Worker-259: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for log4j:log4j:1.2.7
+org.eclipse.core.runtime.CoreException: Could not resolve artifact log4j:log4j:jar:javadoc:1.2.7
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:29:01,643 [Worker-259: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-sources.jar
+2020-11-09 23:29:02,749 [Worker-259: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-sources.jar
+2020-11-09 23:29:02,750 [Worker-259: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.atlassian:atlassian-localhost:1.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian:atlassian-localhost:jar:sources:1.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:29:44,506 [Worker-253: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:29:44,527 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:29:44,555 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:29:44,871 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:29:44,873 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:29:44,875 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:29:44,882 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:29:44,883 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:29:44,883 [Worker-253: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:29:44,886 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:29:45,421 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:29:45,549 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:29:45,552 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:29:45,555 [Worker-267: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:29:45,556 [Worker-267: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:29:46,767 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-javadoc.jar
+2020-11-09 23:29:48,000 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-javadoc.jar
+2020-11-09 23:29:48,002 [Worker-266: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.atlassian:atlassian-localhost:1.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian:atlassian-localhost:jar:javadoc:1.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:30:02,426 [Worker-262: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:30:03,473 [Worker-262: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.0.6/atlassian-mail-5.0.6.pom
+2020-11-09 23:30:04,278 [Worker-262: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.0.6/atlassian-mail-5.0.6.pom
+2020-11-09 23:30:04,306 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:30:06,232 [Worker-262: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.0.6/atlassian-mail-5.0.6.jar
+2020-11-09 23:30:07,346 [Worker-262: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.0.6/atlassian-mail-5.0.6.jar
+2020-11-09 23:30:07,418 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:30:07,700 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:07,702 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:30:07,704 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:07,707 [Worker-262: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:30:07,708 [Worker-262: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:30:07,708 [Worker-262: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:30:07,711 [Worker-262: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:08,189 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:30:08,343 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:08,358 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:30:08,366 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:08,367 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:30:09,602 [Worker-254: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.0.6/atlassian-mail-5.0.6-sources.jar
+2020-11-09 23:30:10,735 [Worker-254: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.0.6/atlassian-mail-5.0.6-sources.jar
+2020-11-09 23:30:10,754 [Worker-254: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.atlassian.mail:atlassian-mail:5.0.6
+2020-11-09 23:30:11,034 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:11,035 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:30:11,039 [Worker-253: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:11,040 [Worker-253: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:30:30,138 [Worker-254: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:30:30,526 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:30,528 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:30:30,530 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:30,530 [Worker-254: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:30:30,530 [Worker-254: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:30:30,531 [Worker-254: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:30:30,534 [Worker-254: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:32,568 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:32,578 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:30:32,579 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:30:32,580 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:31:59,245 [Worker-259: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:31:59,565 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:31:59,575 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:31:59,577 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:31:59,577 [Worker-259: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:31:59,578 [Worker-259: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:31:59,578 [Worker-259: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:31:59,581 [Worker-259: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:34:56,258 [Worker-268: reload maven project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:34:56,516 [Worker-269: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:34:56,592 [Worker-269: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:34:57,224 [Worker-269: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:34:57,226 [Worker-269: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:34:57,228 [Worker-269: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:34:57,228 [Worker-269: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:34:57,228 [Worker-269: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:34:57,229 [Worker-269: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:34:57,232 [Worker-269: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:34:57,772 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:34:57,922 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:34:57,934 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:34:57,935 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:34:57,936 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:35:48,595 [Worker-264: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:35:49,575 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.pom
+2020-11-09 23:35:50,406 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.pom
+2020-11-09 23:35:51,159 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.29/public-pom-5.0.29.pom
+2020-11-09 23:35:51,930 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.29/public-pom-5.0.29.pom
+2020-11-09 23:35:52,730 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:35:54,591 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:35:55,321 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:35:56,028 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform/5.0.0/platform-5.0.0.pom
+2020-11-09 23:35:56,948 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform/5.0.0/platform-5.0.0.pom
+2020-11-09 23:35:57,766 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform-poms/5.0.0/platform-poms-5.0.0.pom
+2020-11-09 23:35:58,587 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform-poms/5.0.0/platform-poms-5.0.0.pom
+2020-11-09 23:35:59,404 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.21/public-pom-5.0.21.pom
+2020-11-09 23:36:00,228 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.21/public-pom-5.0.21.pom
+2020-11-09 23:36:00,939 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:36:01,250 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:36:01,559 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:36:02,380 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/third-party/5.0.0/third-party-5.0.0.pom
+2020-11-09 23:36:03,198 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/third-party/5.0.0/third-party-5.0.0.pom
+2020-11-09 23:36:04,016 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.pom
+2020-11-09 23:36:04,320 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.pom
+2020-11-09 23:36:04,321 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:36:05,139 [AetherRepositoryConnector-maven.atlassian.com-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.jar
+2020-11-09 23:36:05,354 [AetherRepositoryConnector-maven.atlassian.com-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.jar
+2020-11-09 23:36:06,165 [AetherRepositoryConnector-maven.atlassian.com-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.jar
+2020-11-09 23:36:06,470 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.jar
+2020-11-09 23:36:06,783 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:06,785 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:36:06,786 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:06,786 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:36:06,786 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:36:06,786 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:36:06,789 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:07,776 [Worker-266: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:36:08,451 [Worker-264: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:36:08,498 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:36:08,738 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0-sources.jar
+2020-11-09 23:36:08,820 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:08,821 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:36:08,822 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:08,823 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:36:08,823 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:36:08,823 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:36:08,826 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:09,541 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0-sources.jar
+2020-11-09 23:36:09,567 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.atlassian.mail:atlassian-mail:5.1.0
+2020-11-09 23:36:09,615 [Worker-266: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:36:10,465 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-sources.jar
+2020-11-09 23:36:11,519 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-sources.jar
+2020-11-09 23:36:11,520 [Worker-266: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.atlassian:atlassian-localhost:1.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian:atlassian-localhost:jar:sources:1.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:36:11,523 [Worker-266: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.atlassian.mail:atlassian-mail:5.1.0
+2020-11-09 23:36:12,511 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-javadoc.jar
+2020-11-09 23:36:13,540 [Worker-266: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-javadoc.jar
+2020-11-09 23:36:13,543 [Worker-266: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.atlassian:atlassian-localhost:1.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian:atlassian-localhost:jar:javadoc:1.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:36:13,859 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:13,862 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:36:13,863 [Worker-266: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:13,865 [Worker-266: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:36:37,663 [Worker-264: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:36:38,835 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.pom
+2020-11-09 23:36:39,648 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.pom
+2020-11-09 23:36:40,467 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.29/public-pom-5.0.29.pom
+2020-11-09 23:36:41,288 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.29/public-pom-5.0.29.pom
+2020-11-09 23:36:41,893 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:36:43,031 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:36:43,643 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.29/base-pom-5.0.29.pom
+2020-11-09 23:36:44,461 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform/5.0.0/platform-5.0.0.pom
+2020-11-09 23:36:45,382 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform/5.0.0/platform-5.0.0.pom
+2020-11-09 23:36:46,100 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform-poms/5.0.0/platform-poms-5.0.0.pom
+2020-11-09 23:36:46,922 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/platform-poms/5.0.0/platform-poms-5.0.0.pom
+2020-11-09 23:36:47,743 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.21/public-pom-5.0.21.pom
+2020-11-09 23:36:48,571 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/public-pom/5.0.21/public-pom-5.0.21.pom
+2020-11-09 23:36:49,275 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:36:49,581 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:36:49,889 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/pom/base-pom/5.0.21/base-pom-5.0.21.pom
+2020-11-09 23:36:50,682 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/third-party/5.0.0/third-party-5.0.0.pom
+2020-11-09 23:36:51,329 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/platform/third-party/5.0.0/third-party-5.0.0.pom
+2020-11-09 23:36:52,139 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.pom
+2020-11-09 23:36:52,339 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.pom
+2020-11-09 23:36:52,341 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:36:53,273 [AetherRepositoryConnector-maven.atlassian.com-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.jar
+2020-11-09 23:36:53,543 [AetherRepositoryConnector-maven.atlassian.com-4-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.jar
+2020-11-09 23:36:54,394 [AetherRepositoryConnector-maven.atlassian.com-4-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0.jar
+2020-11-09 23:36:54,704 [Worker-264: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0.jar
+2020-11-09 23:36:55,065 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:55,067 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:36:55,069 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:55,070 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:36:55,070 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:36:55,070 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:36:55,073 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:55,845 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:36:56,008 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:56,023 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:36:56,025 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:36:56,026 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:36:56,957 [Worker-271: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0-sources.jar
+2020-11-09 23:36:58,286 [Worker-271: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/mail/atlassian-mail/5.1.0/atlassian-mail-5.1.0-sources.jar
+2020-11-09 23:36:58,330 [Worker-271: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.atlassian.mail:atlassian-mail:5.1.0
+2020-11-09 23:36:59,309 [Worker-271: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-sources.jar
+2020-11-09 23:37:00,538 [Worker-271: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-sources.jar
+2020-11-09 23:37:00,540 [Worker-271: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.atlassian:atlassian-localhost:1.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian:atlassian-localhost:jar:sources:1.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:37:00,764 [Worker-268: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:37:00,765 [Worker-268: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:37:00,767 [Worker-268: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:37:00,767 [Worker-268: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:37:02,584 [Worker-269: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://maven.atlassian.com/content/repositories/atlassian-public/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-javadoc.jar
+2020-11-09 23:37:03,411 [Worker-269: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/atlassian/atlassian-localhost/1.1.0/atlassian-localhost-1.1.0-javadoc.jar
+2020-11-09 23:37:03,413 [Worker-269: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.atlassian:atlassian-localhost:1.1.0
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.atlassian:atlassian-localhost:jar:javadoc:1.1.0
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:316)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2020-11-09 23:38:05,884 [Worker-264: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:38:05,930 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:38:06,310 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:06,312 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:38:06,314 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:06,314 [Worker-264: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:38:06,315 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:38:06,315 [Worker-264: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:38:06,318 [Worker-264: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:27,783 [Worker-268: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-11-09 23:38:27,901 [Worker-268: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:38:27,933 [Worker-268: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:38:28,235 [Worker-268: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/main/java
+2020-11-09 23:38:28,235 [Worker-268: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /mycoolwebapp/src/main/resources
+2020-11-09 23:38:28,235 [Worker-268: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /mycoolwebapp/src/test/java
+2020-11-09 23:38:29,644 [Worker-268: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for mycoolwebapp
+2020-11-09 23:38:29,646 [Worker-268: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-11-09 23:38:29,729 [Worker-274: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.atlassian:atlassian-localhost:jar:1.1.0 is missing, no dependency information available
+2020-11-09 23:38:29,856 [Worker-274: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:29,857 [Worker-274: Building Project mycoolwebapp] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:38:29,859 [Worker-274: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:29,859 [Worker-274: Building Project mycoolwebapp] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:38:29,860 [Worker-274: Building Project mycoolwebapp] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:38:29,860 [Worker-274: Building Project mycoolwebapp] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:38:29,863 [Worker-274: Building Project mycoolwebapp] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:30,403 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:30,409 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:38:30,412 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:30,413 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:38:53,343 [Worker-272: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:mycoolwebapp:1.0 @ /home/arshil/eclipse-workspace/mycoolwebapp/pom.xml.
+2020-11-09 23:38:53,628 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:53,636 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:38:53,637 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:53,638 [Worker-272: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-09 23:38:53,638 [Worker-272: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mycoolwebapp
+2020-11-09 23:38:53,638 [Worker-272: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mycoolwebapp
+2020-11-09 23:38:53,641 [Worker-272: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:54,311 [Worker-277: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:54,313 [Worker-277: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 23:38:54,315 [Worker-277: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-11-09 23:38:54,315 [Worker-277: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/arshil/eclipse-workspace/mycoolwebapp/src/test/resources
+2020-11-10 09:20:35,657 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

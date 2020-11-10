@@ -17,6 +17,8 @@ INDEX VERSION 1.131
 /web-customer-tracker/src
 /home/arshil/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/587606976.index
 /SpringCRUD/src
+/home/arshil/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3519421886.index
+/mycoolwebapp/src/main/resources
 /home/arshil/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3282198446.index
 /spring-mvc-demo1/src
 /home/arshil/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3841111490.index
